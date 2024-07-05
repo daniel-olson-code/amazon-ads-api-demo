@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #12121f;/*#f1f1f1;*/
+}
+
+.auth-btn {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 25px;
+}
+.auth-btn:hover {
+    background-color: #3e8e41;
+}
+.auth-btn:active {
+    background-color: #3e8e41;
+}
+.auth-btn:focus {
+    background-color: #3e8e41;
+}
+.auth-btn:disabled {
+    background-color: #4CAF50;
+}
+
+p, pre, h1, h2, h3, th, td, label {
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+}
+
+.communication-text {
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+    width: 100vw;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: none;/*1px solid #dddddd*/;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #4CAF50;
+}
+
+.top-left-btn {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
