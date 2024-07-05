@@ -14,12 +14,6 @@ By creating this project, I aim to:
 3. Provide a practical example of using Flask to create an interactive interface for API interactions
 4. Offer a foundation for digital marketers and developers looking to automate and streamline their Amazon Ads reporting processes
 
-This example application focuses on common reporting tasks such as:
-- Requesting various types of advertising reports
-- Checking report status
-- Downloading and displaying report data
-- Basic data visualization of report results
-
 While simple in design, this demo illustrates how the Report API can be leveraged to create powerful tools for analyzing and optimizing Amazon advertising campaigns.
 
 ---
